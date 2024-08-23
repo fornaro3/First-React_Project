@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from '../../components/Button'
 import {Header} from '../../components/Header'
 import { Section } from '../../components/Section'
+import { Tag} from '../../components/Tag'
  export function Details(){
 
 
@@ -18,7 +19,8 @@ import { Section } from '../../components/Section'
       </Section>
 
       <Section Title="Marcadores">
-        
+        <Tag Title="express"/>
+        <Tag Title="node,js"/>
       </Section>
       
       <Button title="Voltar" loading/>
