@@ -1,4 +1,4 @@
-import  {Container, Links}   from './styles'
+import  {Container, Links, Content}   from './styles'
 import React from 'react'
 import { Button } from '../../components/Button'
 import {Header} from '../../components/Header'
@@ -11,6 +11,11 @@ import {ButtonText} from '../../components/ButtonText'
   return(
     <Container> 
       <Header />
+
+      <main>
+        <Content>
+
+      
 
       <ButtonText Title="Excluir nota"/>
 
@@ -27,6 +32,9 @@ import {ButtonText} from '../../components/ButtonText'
       </Section>
       
       <Button title="Voltar" loading/>
+    
+      </Content>
+      </main>
     </Container>
   )
 
